@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:whitesmoke ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  margin: auto;
+  width: 50vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content:hover{
+  box-shadow: 2px 2px 10px 2px black;
+
+}
+.content{
+  margin: auto;
+  border: 2px solid whitesmoke;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+.image{
+  height: 100%;
+  width: 40%;
+  overflow: hidden;
+}
+.image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.flexitemfirst{
+  width: 60%;
+  display: flex;
+  flex-direction: column ;
+  padding: 20px;
+}
+.parainfo .name{
+  font-size: 20px;
+  margin: 10px 0px;
+}
+
+.lastelement_1 , .lastelement_2, .skills{
+  padding: 10px;
+  margin: 0px 10px 10px 0px ;
+  border: none;
+  border-radius: 10px;
+}
+.lastelement_1 {
+  width: 50%;
+  background-color: black;
+  color: white;
+}
+.lastelement_2{
+  width: 40%;
+}
+
+/* .skills:hover{
+  background-color: rgb(115, 184, 230);
+  cursor: url(`data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>`) , pointer;
+} */
+
+.skills:hover {
+  background-color: rgb(115, 184, 230);
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-instagram'><rect width='20' height='20' x='2' y='2' rx='5' ry='5'/><path d='M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z'/><line x1='17.5' x2='17.51' y1='6.5' y2='6.5'/></svg>"), pointer;
+}

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    width: 80vw;
+    margin:auto ;
+    padding: 5px;
+    background-color: white;
+}
+.intro{
+    background-color: #2f5a78;
+    color: white;
+    padding: 20px;
+}
+
+.intro img{
+    float: right;
+}
+
+.intro .heading{
+    font-size: 2rem;
+    margin: 5px;
+}
+.intro .prof{
+    font-size: 1.3rem;
+    margin: 5px;
+
+}
+.intro .summary{
+    font-size: 1.1rem;
+    margin: 5px;
+
+}
+
+/* Contact Info */
+.contactinfo{
+    background-color: rgb(192, 183, 183);
+    height:15vh;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+.contactinfo .icon , .data{
+    height: 100%;
+    width: 100%;
+    display: inline;
+    margin: 10px;
+}
+
+.contactinfo .icon{
+    color:  #2f5a78;
+
+}
+
+/* Skill Section */
+
+.subheading{
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.skills ul li{
+    list-style: none;
+}
+.skill_name{
+    float: left;
+    margin: 5px;
+}
+
+.skill_per{
+    float: right;
+}
+.skill_prog span{
+    display: inline-block;
+    height: 2px;
+    background-color: black;
+}
+
+
+/* Skill Section */
+
+.box1 , .box2 , .box3{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    text-align: center;
+}
+span{
+    display: inline-block;
+    height: 5px;
+    background-color: #2f5a78;
+}
+
+
+
+/* exprience */
+
+.explist{
+    /* padding: 20px; */
+    margin: 30px;
+}
+
+.explist ul li{
+    list-style: none;
+}
+.explist .date{
+    font-size: 1.6rem;
+    font-weight: 500;
+
+}
+
+.jobtitle{
+    font-size: 1.4rem;
+}
+.jobdesc{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.social a{
+    text-decoration: none;
+
+}
+.icon{
+   font-size: 1.5rem;
+   padding: 5px;
+}
