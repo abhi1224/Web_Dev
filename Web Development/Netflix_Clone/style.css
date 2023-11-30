@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Open+Sans:wght@300&family=Shadows+Into+Light&family=The+Nautigal:wght@700&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+   background-color: black;
+   color: white;
+}
+ .head{
+    background-image: url(assest/netflix.jpg);
+    background-size:contain;
+    height: 110vh;
+    position: relative;
+    z-index: 1;
+ }
+ .opacity{
+    position: absolute;
+    background-color: black;
+    height: 110vh;
+    width: 100%;
+    opacity: 0.8;
+    z-index:-1;
+ }
+
+
+
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+ }
+
+ nav .logo{
+    color: red;
+    font-size: 50px;
+ }
+ .langauge{
+    background-color: transparent;
+    color: white;
+    margin: 30px 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+ }
+ .signin{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+ }
+ .content{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align:center;
+   height: 95vh;
+   position: relative;
+   
+ }
+
+ .content> :nth-child(1){
+   font-size: 3rem;
+   color: white;
+
+ }
+
+ .content p{
+   margin:10px auto;
+   color:white;
+   font-size:30px;
+ }
+
+ .content> :nth-child(4){
+   position: absolute;
+   bottom: 8rem;
+   background-color:transparent;
+   height:58px;
+   width: 500px;
+   border:0.5px groove rgb(96, 93, 93);
+   border-radius: 3px;
+   padding:10px;
+   color: white;
+   font-size: 25px;
+ }
+
+ .content> :nth-child(5){
+   position: absolute;
+   bottom: 8rem;
+   right: 210px;
+   font-weight: 600;
+   font-size: 20px;
+   height:58px;
+   width: 200px;   
+   background-color: red;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   color:white;
+ }
+
+ .space{
+   width: 100%;
+   height: 10px;
+   background-color: #232323;
+ }
+
+ .secondContent{
+   margin: 20px auto;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+
+ }
+
+ .textContent p{
+   font-size: 25px;
+   letter-spacing:1px;
+   margin: auto;
+ }
+ .textContent .heading{
+   margin: 20px auto;
+   font-size: 50px;
+   font-weight: 900;
+ }
+ .imageAndVideo{
+   position: relative;
+ }
+
+ .imageAndVideo video{
+   position: absolute;
+   top: 95px;
+   right: 76px;
+   background-color: transparent;
+   z-index: -1;
+ }
+
+ .thirdContent{
+   display: flex;
+   flex-direction: row-reverse;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin: 75px auto;
+ }
+
+ .imageContent {
+   position: relative;
+ }
+
+ .imageCard{
+   height: 6rem;
+   width: 22rem;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   position: absolute;
+   left: 150px;
+   border: 2px solid gray;
+   border-radius: 10px;
+   bottom: 20px;
+   background-color: black;
+   background-position:left center ;
+   background-size: contain;
+   padding: 10px ;
+ }
+ .imageCard img{
+   height: 5rem;  
+   width: 4rem; 
+ }
+
+.paraContent :nth-child(1){
+   font-weight: 600;
+}
+.paraContent :nth-child(2){
+   color: blue;
+}
+.circle{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   border: 2px groove gray;
+}
+
+.forthContent{
+   margin: 50px auto;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+
+}
+
+.forthimageAndVideo{
+   position: relative;
+   background-position: center;
+   background-size: contain;
+ }
+
+ .forthimageAndVideo video{
+   position: absolute;
+   width: 400px;
+   top: 30px;
+   right: 115px;
+   z-index: -1;
+ }
+
+ .fifthContent{
+   margin:75px auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+
+ .fifthContent .heading{
+   margin: 20px auto;
+   font-size: 50px;
+   font-weight: 900;
+ }
+ .fifthContent p{
+   font-size: 25px;
+   letter-spacing: 1px;
+   margin: auto;
+ }
+.askedQuestion .heading{
+   font-weight: 900;
+   font-size: 50px;
+   text-align: center;
+   margin: 100px auto 50px auto;
+
+}
+
+.questionContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 500px;
+ }
+
+.questionContainer .question{
+   font-weight: 700;
+   font-size: 25px;
+   text-align: center;
+   height: 100px;
+   width: 80%;
+   margin: auto;
+   background-color: #232323;
+
+}
+
