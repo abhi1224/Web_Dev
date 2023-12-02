@@ -86,13 +86,23 @@ body{
 /* Skill Section */
 
 .box1 , .box2 , .box3{
+    width: 75vw;
     margin: 30px;
     display: flex;
     align-items: center;
-    justify-content:space-between ;
-    text-align: center;
+    justify-content:space-between;
 }
-span{
+.name-skill{
+    width: 10vw;
+}
+.skill_prog{
+    width: 10vw;
+}
+.skill_process_bar{
+    width: 80vw;
+    text-align: left;
+}
+.skill_process_bar> span{
     display: inline-block;
     height: 5px;
     background-color: #2f5a78;
@@ -137,4 +147,6 @@ span{
 .icon{
    font-size: 1.5rem;
    padding: 5px;
+   letter-spacing: 1px;
 }
+
