@@ -14,7 +14,9 @@ body{
 }
  .head{
     background-image: url(assest/netflix.jpg);
-    background-size:contain;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 110vh;
     position: relative;
     z-index: 1;
@@ -32,7 +34,7 @@ body{
 
  nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     position: relative;
  }
@@ -40,21 +42,37 @@ body{
  nav .logo{
     color: red;
     font-size: 50px;
+    margin: 10px 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+ }
+ .button{
+  margin: 10px 40px;
  }
  .langauge{
-    background-color: transparent;
+    background-color: #0f0f0f;
     color: white;
-    margin: 30px 30px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid whitesmoke;
+    width: 7rem;
+    height: 2rem;    
+    font-weight: 600;
+    /* border: 1px groove whitesmoke; */
+    border: none;
+    outline: 1px groove whitesmoke;
+    letter-spacing: 1px;
+    border-radius: 4px;
  }
  .signin{
-    background-color: red;
+    margin-left: 10px;
+    background-color:red;
     color: white;
-    padding: 10px;
     border: none;
-    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 4px;
  }
  .content{ 
    display: flex;
@@ -79,36 +97,48 @@ body{
    font-size:30px;
  }
 
- .content> :nth-child(4){
-   position: absolute;
-   bottom: 8rem;
-   background-color:transparent;
-   height:58px;
-   width: 500px;
-   border:0.5px groove rgb(96, 93, 93);
-   border-radius: 3px;
-   padding:10px;
-   color: white;
-   font-size: 25px;
+ .input-field{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+
+ }
+ .input-field input{
+  background-color:transparent;
+  height:58px;
+  width: 500px;
+  border:0.5px groove rgb(96, 93, 93);
+  border-radius: 3px;
+  padding:10px;
+  color: white;
+  font-size: 25px;
+  margin: 10px;
+ }
+ .input-field button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  height:58px;
+  width: 180px;   
+  background-color: red;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color:white;
+  padding-left: 10px;
  }
 
- .content> :nth-child(5){
-   position: absolute;
-   bottom: 8rem;
-   right: 210px;
-   font-weight: 600;
-   font-size: 20px;
-   height:58px;
-   width: 200px;   
-   background-color: red;
-   border: none;
-   border-radius: 3px;
-   cursor: pointer;
-   color:white;
+ .input-field button span{
+  font-size: 50px;
  }
 
  .space{
-   width: 100%;
    height: 10px;
    background-color: #232323;
  }
@@ -222,7 +252,7 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-wrap: wrap;
+   flex-wrap: wrap-reverse;
  }
 
  .fifthContent .heading{
@@ -245,19 +275,78 @@ body{
 
 .questionContainer{
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
-   margin-bottom: 500px;
- }
-
-.questionContainer .question{
-   font-weight: 700;
-   font-size: 25px;
    text-align: center;
    height: 100px;
    width: 80%;
-   margin: auto;
    background-color: #232323;
+   margin: 20px auto;
+   padding: 20px;
+   cursor: pointer;
+
+
+ }
+
+.questionContainer .question{   
+   font-weight: 700;
+   font-size: 25px; 
+}
+
+.material-symbols-outlined {  
+  font-size:80px;
+  font-weight: 100;
+}
+
+.lower-content p{
+  font-size: 20px;
+  text-align: center;
+  margin: 25px 0px -10px -20px;
 
 }
 
+.footer-area{
+  width: 70vw;
+  margin: 50px auto;
+  color: gray; 
+}
+.footer-area .question{
+  margin: auto auto 25px 9px;
+
+  font-weight: 700;
+ 
+}
+
+footer .row-one{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;  
+}
+
+.row-one a{
+  margin: 10px;
+  color:white;
+  font-size: 15px;
+  text-align: left;
+  width: 10rem;
+
+}
+
+footer button{
+  background-color: #0f0f0f;
+  color: white;
+  width: 7rem;
+  height: 2rem;
+  font-weight: 600;
+  border: 1px groove whitesmoke;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  margin: 30px auto;
+}
+
+footer >:last-child{
+  margin-bottom: 100px;
+  font-size: 15px;
+  font-weight: 900;
+  color: gray;
+}
