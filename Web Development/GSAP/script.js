@@ -3,20 +3,20 @@
 var tl = gsap.timeline()
 tl.from('.nav img , .nav .nav-item,.nav-item p,.nav .nav-item-button',{
     y:-100,
-    duration:0.7,
     opacity:0,
     stagger:0.2
 })
 
 gsap.from('.middle .one , .middle .three',{
     x:-500,
-    duration:1,
+    duration:2,
     opacity:0
 })
 gsap.from('.middle span',{
     z:-500,
     duration:1,
-    opacity:0
+    opacity:0,
+    rotate:360
 })
 gsap.from('.middle .two',{
     x:500,
@@ -24,8 +24,15 @@ gsap.from('.middle .two',{
     opacity:0
 })
 
-gsap.from('.middle img',{
+tl.from('.middle img',{
     z:-100,
     scale:0,
-    duration:1,
+    duration:0.5,
+})
+
+gsap.from('.scroll-down',{
+    yoyo:true,
+    y:20,
+    repeat:-1
+
 })

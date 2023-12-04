@@ -90,8 +90,19 @@ h1{
 .middle span {
     text-align: center;
     padding: 30px;
-    background-color: rgba(165, 42, 42, 0.53);
+    background-color: rgba(117, 66, 66, 0.353);
     border-radius: 50px;
     font-size: 2rem;
     margin: 30px;
+}
+
+.scroll-down{
+    position: absolute;
+    bottom:5%;
+    left: 50%;
+    border: 1px groove whitesmoke;
+    background-color: rgba(255, 255, 255, 0.061);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
 }
