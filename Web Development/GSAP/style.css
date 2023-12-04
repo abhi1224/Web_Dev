@@ -7,8 +7,8 @@
 }
 
 .container{
-    height: 100vh;
-    width: 100vw;
+    height: 120vh;
+    width: 100%;
     background-color:black;
     position: relative;
     z-index: -100;
@@ -67,14 +67,14 @@
 }
 
 .middle .image-three{
-    bottom:0%;
+    bottom:10%;
     left:20%;
     width: 250px;
     object-fit: cover;
 }
 .middle .image-four{
     right: 5%;
-    bottom: 10%;
+    bottom: 20%;
 
 }
 
