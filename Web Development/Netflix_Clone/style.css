@@ -26,7 +26,8 @@ body{
     background-color: black;
     height: 110vh;
     width: 100%;
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    background-color: rgba(0, 0, 0, 0.9);
     z-index:-1;
  }
 
