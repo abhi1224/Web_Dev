@@ -6,7 +6,7 @@ tl.from('.nav img , .nav .nav-item,.nav-item p,.nav .nav-item-button',{
     opacity:0,
     stagger:0.2
 })
-
+ 
 gsap.from('.middle .one , .middle .three',{
     x:-500,
     duration:1,
@@ -24,7 +24,7 @@ gsap.from('.middle .two',{
     opacity:0
 })
 
-tl.from('.middle img',{
+gsap.from('.middle img',{
     z:-100,
     scale:0,
     opacity:0,
